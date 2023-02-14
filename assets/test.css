@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,800;1,400;1,500&family=Josefin+Sans:wght@300;400;500;700&display=swap'); 
+
+  @import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+
+
+  
+  nav {
+    position: relative;
+    
+    font-family:"EB Garamond" ;
+    color: #000000;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 35%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 8888;
+  }
+  
+  .nav-container {
+  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    
+  }
+
+  nav {
+    transition: height 0.3s ease-in-out;
+    }
+    
+    nav.navbar-scroll {
+    height: 120px;
+    }
+  
+  .nav-container img {
+   
+    position: absolute;
+    top: 20%;
+    right:42%;
+
+
+  opacity: 1;
+  transform: translateX(200);
+  transition: all 1s;
+
+}
+
+.nav-container img:hover{
+ opacity: .4;
+
+
+}
+
+ .logo a{
+  z-index: 4;margin-top: 30px;
+ }
+  .nav-menu {
+    color: #000000;
+    display: flex;
+    list-style: none;
+    margin-right: 400px;
+    padding: 0;
+    
+  }
+  
+  .nav-menu li {
+    margin: 50px 20px;
+   margin-top: 150px;
+  }
+  
+  .nav-menu a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: .8;
+    ;
+    
+  }
+form{
+  
+  height: 40px;
+  margin-left: 10px;
+  color: #1d1d1d;
+
+  
+  
+}
+form .se{
+  color: #000000;font-size: 15px;
+ 
+ 
+}
+  .nav-menu a:hover {
+   opacity: 1;
+   
+    
+  }
+  
+  .nav-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .toggle-line {
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+ 
+  }
+  
+  @media (max-width: 768px) {
+    .nav-menu {
+      display: none;
+    }
+    .nav-toggle {
+      display: block;
+    }
+  }
+  
+  .nav-item{
+    color: #000000;
+  }
+
+/*footer*/
+
+  .foot{
+    padding: 124px 0 126px;
+    background-color: #fdfcff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0 solid #ddd;
+    margin-top: 60px;
+}
+
+h4{
+    margin-bottom: 14px;
+    color: #1d1d1d;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .12em;
+    text-align: left;
+}
+
+.cot,.help{
+    text-align: left;
+    color: #8b8b8b;
+}
+
+.cot p a{
+    color: #8b8b8b;
+}
+
+
+.list-group-item-action:hover{
+
+   color: #aeaeae;;
+}
+
+.icon{
+    border: 1px solid #8b8b8b;
+   
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+   
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.icon:hover{
+    color: black;
+}
+
+.footend{
+    margin-top: 10px;
+    background-color: white;
+   
+}
+
+
+
+
+/*store*/
+
+
+
+.store-gallery img{
+  height: 350px;
+  width: 300px;
+
+}
+
+
+.list {
+  text-decoration:wavy;
+  font-family: "Josefin Sans";
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-left: 120px;
+  height: 500px;
+}
+
+.list span{
+  font-size: larger;
+  position: absolute;
+  padding-bottom: 20px;
+  top: 350px;
+
+}
+
+
+.list img {
+  margin-right: 60px;
+  
+
+}
+
+
+
+
+.list {
+  height: 500px;
+  overflow: hidden;
+}
+
+.gallery-row {
+  display: flex;
+  transition: transform 0.7s ease-in-out;
+}
+
+.list.animate .gallery-row {
+  transform: translateX(5%);
+}
+
+.single-img {
+  margin-right: 20px;
+}
+
+.single-img:last-child {
+  margin-right: 0;
+}
+
+
+
+.offer{
+  font-family: "The Girl Next Door";
+  font-size: 62px;
+}

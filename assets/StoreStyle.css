@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,800;1,400;1,500&family=Josefin+Sans:wght@300;400;500;700&display=swap'); 
+
+body{
+    font-family: "EB Garamond";
+    position: relative;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "EB Garamond";
+}
+
+body {
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #8b8b8b;
+}
+
+h1,h2{
+
+ font-family: "Josefin Sans",sans-serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 40px;
+    line-height: 1.33em;
+    letter-spacing: .23em;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+#add{
+    width: 150px;
+    height: 47px;
+ margin-right: 10px;
+
+ border: 1px solid #ddd;
+
+ margin-bottom: 20px;
+}
+
+#btn{
+
+color: #8b8b8b;
+padding: 10px 40px;
+border: 1px solid black;
+
+background-color: transparent;
+    border: 1px solid #8b8b8b;
+    font-family: "EB Garamond",serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1d1d1d;
+    text-transform: capitalize;
+}
+
+
+.content{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.virt{
+    width: 20%;
+
+}
+
+.price{
+    font-family: "EB Garamond",serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #1D1D1D;
+}
+
+#cont{
+    width: 94%;
+    margin: 20px 0;
+    line-height: 1.8em;
+}
+
+.product_meta{
+    margin-top: 40px;
+}
+
+.pro{
+    font-family: "EB Garamond",serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    color: #8b8b8b;
+   
+}
+
+.product{
+    margin-right: 8px;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 13px;
+
+    letter-spacing: .2em;
+    line-height: 2.7em;
+}
+
+.wish{
+    font-family: "EB Garamond",serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    
+    font-family: "EB Garamond",serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    color: #1d1d1d;
+}
+
+
+.cent{
+    
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+    
+    
+}
+
+.btn-primary{
+    
+    font-family: "EB Garamond",serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color:white;
+    text-transform: capitalize;
+}
+
+.card-text{
+    font-family: "EB Garamond",serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.card-title{
+    font-family: "EB Garamond",serif;
+    
+    font-size: 18px;
+}
+
+.foot{
+    padding: 124px 0 126px;
+    background-color: #f4f2f2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0 solid #ddd;
+    margin-top: 60px;
+}
+
+h4{
+    margin-bottom: 14px;
+    color: #1d1d1d;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .12em;
+    text-align: left;
+}
+
+.cot,.help{
+    text-align: left;
+    color: #8b8b8b;
+}
+
+.cot p a{
+    color: #8b8b8b;
+}
+
+
+.list-group-item-action:hover{
+
+   color: #aeaeae;;
+}
+
+.icon{
+    border: 1px solid #8b8b8b;
+   
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+   
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.icon:hover{
+    color: black;
+}
+
+.footend{
+    margin-top: 10px;
+    background-color: white;
+   
+}

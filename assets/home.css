@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,800;1,400;1,500&family=Josefin+Sans:wght@300;400;500;700&display=swap'); 
+
+  @import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+
+body{
+    
+}
+
+.homebar img{
+    margin-top: 15%;
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+    position: relative;
+}
+
+.homebar .quto{
+   width: 1000px;
+   height: 400px;
+    z-index: 3;
+    position: absolute;
+    top:40%;
+    left: 15%;
+    font-size: 55px;
+    font-family: "Josefin Sans";
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 90px;
+  margin-top: 60px;
+    
+
+}
+
+/* The animation code */
+.mySlides {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: .5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  .bar-buttons{
+    position: absolute;
+    top:75%;
+    left: 30%;
+    z-index: 100;
+    opacity: 1;
+    animation-name: movebtn;
+    animation-duration: 3s;
+    transform: translatey(0) ;
+    animation-iteration-count: calc(2s);
+   
+    animation-delay: 8s;
+    animation-fill-mode: backwards;
+
+
+    
+  }
+
+ 
+/*
+  @keyframes movebtn {
+    0%{
+        transform: translatey(100%);
+        opacity: 1;
+    }
+    100%{
+        transform: translatey(-800%);
+        opacity: 0;
+    }
+  }
+*/
+  .homebar{
+    overflow: hidden;
+  }
+  
+
+.text-container{
+ 
+  position: absolute;
+  top:100%;
+  left: 40%;
+  z-index: 100;
+  opacity: 1;
+  animation-name: movetext;
+  transform: translatey(0) ;
+animation-iteration-count: initial;
+  animation-fill-mode: none;
+  animation-delay: 8s;
+
+}
+
+
+/*@keyframes movetext {
+  0%{
+      transform: translatey(100px);
+      opacity: 1;
+  }
+  100%{
+      transform: translatey(20px);
+      opacity: 0;
+  }
+}*/
+
+
+
+.ad{
+  content: "";
+  margin-top: 10%;
+  height: 50%;
+  width: 350px;
+  background-color:#b5b7bd;
+  text-align: center;
+justify-content: center;
+  position: absolute;
+  margin-left: 65%;
+  z-index: 2;
+  overflow: hidden;
+
+  
+}
+
+/*.ad img{
+  height: 400px;
+  width: 300px;
+  margin-left: 40%;
+
+}*/
+
+
+
+
+
+
+.ad p{
+font-family: 'josefin sans';
+    color: black;
+    margin-top: 10%;
+   padding-left: 5%;
+   padding-right: 40%;
+   font-size: 20px;
+   z-index: 5;
+}
+
+.ad i{
+ 
+ position: absolute;
+ bottom: 100px;
+ right: 5px;
+ left: 200px;
+ 
+  border: 1px solid #f2f5fd;
+  border-radius: 50%;
+  font-size: 250px;
+  z-index: 3;
+  color: rgb(99, 104, 107 ,.5);
+  transition: all 0.5s ease;
+
+  
+}
+
+.ad:hover i{
+  transform: translateX(-20px);
+  border: 1px solid #828388;
+
+ 
+}
+
+
+
+.ad span{
+  z-index: 5;
+ 
+  padding-left: 5%;
+  padding-right: 70%;
+  border: none;
+  color: rgb(56, 54, 54);
+}
+.ad span::after {
+  content: '';
+  position: absolute;
+  top: 48%;
+  height: 1px;
+  left: 13%;
+  width: 60px;
+  transition: width 0.3s;
+  background-color: currentColor;
+  will-change: transform;
+}
+
+.ad span:hover::after {
+  width: 0px;
+}
+
+
+
+
+.product {
+  background-color: rgb(251, 255, 255);
+  width: 50%;
+  padding-top: 5%;
+  margin-left: 5%;
+  overflow: hidden;
+  z-index: 1;
+
+}
+.product img{
+  height: 440px;
+  width: 410px;
+  padding-top: 5%;
+ margin-left: 10%;
+ padding-right: 10%;
+ z-index: 2;
+}
+
+
+.button{
+ background-color: transparent;
+ 
+  width: 30px;
+  font-size: large;
+  border: none;
+  z-index: 5;
+  
+}
+
+.btn{
+  font-family: "EB Garamond";
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 0%;
+  font-size: large;
+  margin-left: 20px;
+  border: 1px solid  white;
+  font-style: italic;
+ 
+}
+
+
+
+.otherquto{
+  
+  width: 1000px;
+   height: 400px;
+    z-index: 3;
+    position: absolute;
+    top:40%;
+    left: 30%;
+    font-size: 33px;
+    font-family: "The Girl Next Door";
+    color: white;
+    letter-spacing: 3px;
+    
+}
+
+.captions {
+  display: flex;
+  position: relative;;
+}
+
+.captions .price {
+
+ position: absolute;
+ left: 400px;
+ bottom: 25px;
+ font-style: italic;
+  
+}
+
+.captions .discrection {
+
+  position: absolute;
+  left: 100px;
+  bottom: 2px;
+  font-family: "Josefin Sans";
+  color: rgb(139, 139, 139, .9);
+   
+ }
+
+ .captions .name {
+  position: absolute;
+  left: 100px;
+  bottom: 25px;
+  font-family: "Josefin Sans";
+
+ }
+
+
+.second-product{
+
+position: absolute;
+
+height: 700px !important;
+width: 800 !important;
+
+}
+.second-product img{
+  height: 600px;
+  width: 450px;
+}
+
+
+.about{
+  margin-top: 60%;
+  content: "";
+  height: 200px;
+   width: 100%;
+  
+  background-color:rgb(79, 138, 80) !important;
+  position: relative;
+}
+.info i{
+  font-size: 40px;
+  margin-top: 55px;
+  
+  
+}
+.info{
+  font-size: 18px;
+  margin-left: 8%;
+
+  color: white;
+}
+
+.info span{
+  font-family: "Josefin Sans";
+  margin-top: 50px;
+  
+}
+
+.info button{
+  border: none;
+  width: 30px;
+}
